@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rock Paper Scissor Game</title>
+  <link rel="stylesheet" href="CSS files/style.css">
+  <link rel="stylesheet" href="CSS files/navbar.css">
+  <link rel="stylesheet" href="CSS files/footer.css">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar-main-div">
+      <div class="logo-div">
+        <p class="site-logo">GAMEO<span style="color: rgb(249, 19, 19);">.IN</span></p>
+      </div>
+  
+      <div class="menu-bar-div">
+        <p class="home-button">HOME</p>
+        <p class="explore-button"><a href="explore.html">EXPLORE</a></p>
+        <p class="explore-button">ABOUT</p>
+        <p class="explore-button">CONTACT US</p>
+      </div>
+  
+      <div class="right-side-div">
+        <!-- <p class="cart-para">Cart</p> -->
+         <img class="cart-icon" src="../Icons/cart.png" alt="Cart">
+      </div>
+
+      <div class="notification"><p class="notification-number-para">2</p></div>
+    </div>
+  </header>
+
+
+  <div class="main-div">
+  
+    <div class="game-heading-div">
+        <p class="heading-para">
+          WELCOME TO ROCK PAPER SCISSOR GAME 
+        </p>
+    </div>
+
+    <div class="game-body-div">
+      <button class="button-style" onclick="comparMove('rock');">&#9994;</button>
+
+      <button class="button-style" onclick="comparMove('paper');">&#128400;</button>
+
+      <button class="button-style" onclick="comparMove('scissor');">&#9996;</button>
+
+    </div>
+
+    <div class="result-div">
+      <button class="reset-button" onclick="
+        // score.wins = 0,
+        // score.losses = 0;
+        // score.ties = 0;
+        // localStorage.removeItem('score');
+
+        resetScore();
+      ">Reset Game</button>
+
+      <p class="result-para" id="resultText"></p>
+
+      <p class="result-para" id="matchScore"></p>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-main-div">
+      <p style="color: white; text-align: center;">
+        2025 @all rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+<script src="script.js">
+</script>
+
+</html>

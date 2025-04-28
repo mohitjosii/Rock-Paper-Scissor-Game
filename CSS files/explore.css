@@ -1,0 +1,12 @@
+.main-card-div{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+}
+.card-div{
+  width: 25%;
+  height: 40vh;
+  background-color: white;
+}

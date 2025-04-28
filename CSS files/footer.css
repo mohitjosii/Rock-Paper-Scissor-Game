@@ -1,0 +1,7 @@
+.footer-main-div{
+  width: 100%;
+  border-top-width: 2px;
+  border-top-color: white;
+  border-top-style: solid;
+  box-shadow: 0px -1px 8px white;
+}
